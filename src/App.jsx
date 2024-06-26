@@ -3,14 +3,14 @@ import "./App.css";
 import MyFooter from "./components/Footer";
 import MyNav from "./components/NavBar";
 import Welcome from "./components/Welcom";
-import AllTheBooks from "./components/AllTheBooks";
+import BookList from "./components/BookList";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <MyNav />
       <Welcome />
-      <AllTheBooks />
+      <BookList />
       <MyFooter />
     </div>
   );
